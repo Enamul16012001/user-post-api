@@ -1,0 +1,8 @@
+sqlalchemy
+fastapi
+sqlmodel
+pydantic[email]
+pyjwt
+"passlib[bcrypt]"
+python-jose[cryptography]
+python-multipart
