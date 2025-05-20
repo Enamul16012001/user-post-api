@@ -2,8 +2,6 @@ from pydantic import BaseModel, EmailStr
 from datetime import datetime
 from typing import Optional
 
-# this file defines the schemas for the application using Pydantic models
-
 class UserOut(BaseModel):
     id: int
     email: EmailStr
