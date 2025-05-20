@@ -2,8 +2,6 @@ from pydantic import BaseModel, EmailStr
 from datetime import datetime
 from typing import Optional
 
-#This module defines Pydantic models for user and post data validation and serialization.
-
 class UserOut(BaseModel):
     id: int
     email: EmailStr
